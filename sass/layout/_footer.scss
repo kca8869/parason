@@ -1,0 +1,46 @@
+.footer{
+  background-color: $color-bg-footer;
+  padding: 10rem 0;
+}
+
+.footer-group{
+
+  &__title{
+    color: $color-white;
+    font-size: $font-size-card-header;
+  }
+
+  &__list{
+    list-style: none;
+  }
+  &__item{
+    padding: 1rem 0;
+  }
+  &__link,
+  &__link:hover,
+  &__link:focus{
+    font-size: $font-size-text;
+    font-weight: $font-weight-text;
+    text-decoration: none;
+    color: $color-footer-text;
+  }
+}
+.footer-form{
+  & > *{
+    font-size: $font-size-text;
+    font-weight: $font-weight-text;
+  }
+  &__input{
+    padding: 1.75rem 2rem;
+    background-color: $color-footer-input;
+    outline: none;
+    border: none;
+  }
+  &__btn{
+    margin-left: -3rem;
+    padding: 1rem 2rem;
+    vertical-align: inherit;
+    background-color: $color-white;
+
+  }
+}

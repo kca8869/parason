@@ -1,0 +1,43 @@
+.card{
+  background-color: $card-bg-color;
+  border: none;
+  transition: all .4s;
+  padding: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+  &:hover{
+    background-color: $color-white;
+    box-shadow: 0 0 5px 5px $card-bg-color;
+    & .card__btn{
+      background-color: $background-color-header;
+      color: $color-white;
+    }
+  }
+  &__heading{
+    font-size: $font-size-card-header;
+    font-weight: $font-weight-navbar;
+    margin: 1rem 0;
+  }
+
+  &__text{
+    font-size: $font-size-text;
+    font-weight: $font-weight-text;
+    color:rgba($color-text,.9);
+  }
+  &__item{
+    padding: 1rem;
+  }
+  &__price{
+    font-size: 5rem;
+  }
+  &__btn{
+    margin: 2rem 0;
+  }
+  ul{
+
+    list-style: none;
+  }
+}
+.ti-close{
+  color: red;
+}

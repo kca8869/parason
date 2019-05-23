@@ -1,0 +1,38 @@
+.testimonial-item{
+  padding: 5rem 0;
+  &__img{
+    margin: 0 auto;
+    display:block;
+    margin-bottom: -4rem;
+  }
+  &__text-box{
+      background-color: $color-white;
+      text-align: center;
+      padding: 5rem;
+  }
+  &__name{
+    font-size: $font-size-card-header;
+  }
+  &__text,
+  &__sub-name{
+    font-size: $font-size-text;
+    font-weight: $font-weight-text;
+    color: $color-text;
+  }
+}
+.carousel-indicators{
+
+}
+.carousel-indicators > li{
+  padding: 2px;
+  background-color: $color-indicator;
+  &:hover{
+    background-color: $color-header-text-hover;
+  }
+}
+.carousel-indicators > .active{
+  background-color: $color-header;
+  &:hover{
+    background-color: $color-header;
+  }
+}

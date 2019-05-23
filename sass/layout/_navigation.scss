@@ -1,0 +1,24 @@
+.top-navbar{
+  color: $color-white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 10rem;
+  z-index: 20;
+
+    &__link{
+      color: $color-white;
+      font-weight: $font-weight-navbar;
+      font-size: $font-size-navbar;
+      margin: 0 2rem;
+      &:hover{
+        color: $color-header-text-hover;
+      }
+    }
+    &__item > .active{
+      color: $color-header-text-hover;
+    }
+  }
