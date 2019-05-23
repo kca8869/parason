@@ -191,8 +191,6 @@ hr {
   top: 0;
   left: 0;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
   padding: 2rem 10rem;
   z-index: 20; }
   .top-navbar__link {
@@ -204,6 +202,10 @@ hr {
       color: #CAC7DA; }
   .top-navbar__item > .active {
     color: #CAC7DA; }
+
+.navbar-dark {
+  border-color: white;
+  font-size: 2rem; }
 
 .social-list {
   list-style: none; }

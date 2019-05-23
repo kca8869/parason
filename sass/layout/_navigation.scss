@@ -4,8 +4,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
+  //display: flex;
+  //justify-content: space-around;
   padding: 2rem 10rem;
   z-index: 20;
 
@@ -14,6 +14,7 @@
       font-weight: $font-weight-navbar;
       font-size: $font-size-navbar;
       margin: 0 2rem;
+    //  transition: all .4s;
       &:hover{
         color: $color-header-text-hover;
       }
@@ -23,9 +24,13 @@
     }
   }
 
+.navbar-dark{
+  border-color: white;
+  font-size: 2rem;
+}
   .social-list{
     list-style: none;
-    
+
     &__link{
       color: $color-white;
       margin: 0 2rem;
