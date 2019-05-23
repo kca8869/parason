@@ -22,3 +22,15 @@
       color: $color-header-text-hover;
     }
   }
+
+  .social-list{
+    list-style: none;
+    
+    &__link{
+      color: $color-white;
+      margin: 0 2rem;
+      &:hover{
+        color: $color-header-text-hover;
+      }
+    }
+  }
