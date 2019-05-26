@@ -31,8 +31,9 @@ $(window).scroll(function(){
   //identify container and children
 var multiCarousel=$(".multi-carousel");
 var multiCarouselArray=$(".multi-carousel").children();
-var gap=100
-  //create a universal width value
+
+var gap=100;
+//create a universal width value
 var width=multiCarouselArray[0].width+gap;
 //assign positions, height, and left values to the elements
 for (var i = 0; i < multiCarouselArray.length; i++) {
