@@ -22,7 +22,7 @@
     "boostrap": "^2.0.0",
     "bootstrap": "^4.3.1",
     "concat": "^1.0.3",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "minify": "^3.0.5",
     "node-minify": "^3.1.1",
     "node-sass": "^4.5.3",
