@@ -26,7 +26,7 @@
     "minify": "^3.0.5",
     "node-minify": "^3.1.1",
     "node-sass": "^4.5.3",
-    "npm": "^6.9.0",
+    "npm": "^6.14.6",
     "npm-run-all": "^4.1.1",
     "popper.js": "^1.14.7",
     "postcss-cli": "^4.1.1",
